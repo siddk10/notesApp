@@ -1,0 +1,15 @@
+<div class="row">
+    <div class="col-xs-12">
+        <button (click)="onNewNote()" class="btn btn-success">
+            New Recipe
+        </button>
+    </div>
+</div>
+<hr>
+<div class="row">
+    <div class="col-xs-12">
+
+        <app-notesitem *ngFor="let note of notes ; let i=index" [note]="note" [index]="i">
+        </app-notesitem>
+    </div>
+</div>
