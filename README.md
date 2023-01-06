@@ -1,5 +1,7 @@
 # Notes
 
+Deployed this site with netlify:https://symphonious-mermaid-8f83fa.netlify.app/#/notes
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.2.
 
 ## Development server
